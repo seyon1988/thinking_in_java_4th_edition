@@ -16,7 +16,7 @@ Type Information
 Generics
 Arrays
 Containers in Depth
-I/O
+IO
 Enumerated Types
 Annotations
 Concurrency

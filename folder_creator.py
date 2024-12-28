@@ -19,3 +19,8 @@ for index, line in enumerate(lines, start=1):
     
     os.makedirs(output_folder_path, exist_ok=True)
 
+    filename = f"{line}.txt"
+    output_file_path = os.path.join(output_folder_path, filename)
+
+    with open(output_file_path, 'w') as output_file:
+        output_file.write(line)
